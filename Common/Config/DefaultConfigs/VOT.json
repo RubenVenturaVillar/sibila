@@ -1,0 +1,10 @@
+{
+    "model": "VOT",
+    "type_ml": "classification", 
+    "base_models": ["ANN", "BAG", "DT", "KNN", "LR", "RF", "RLF", "RNN", "RP", "SVM", "XGBOOST"], 
+    "remove_outliers": false,  
+    "params": {}, 
+    "params_grid": {},  
+    "classification_type": "multiclass"  
+  }
+  
