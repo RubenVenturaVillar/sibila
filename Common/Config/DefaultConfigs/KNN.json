@@ -1,7 +1,7 @@
 {
   "model": "KNN",
   "train_grid":"train_random",
-  "type_ml":"classification",
+  "type_ml":"regression",
   "classification_type": "binary",
   "params": {
       "n_jobs": 8,

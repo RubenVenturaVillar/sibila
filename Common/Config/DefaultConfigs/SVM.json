@@ -1,11 +1,12 @@
 {
     "model": "SVM",
     "train_grid": "train_random",
-    "type_ml": "classification",
+    "type_ml": "regression",
     "classification_type": "binary",
     "n_jobs": 8,
     "params": {
-        "verbose": 1
+        "verbose": 1,
+        "probability": "true"
     },
     "params_grid": {
         "probability": [1],
